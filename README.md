@@ -1,2 +1,4 @@
-# master-thesis-data-analysis
-Biological Anthropology Master's Thesis - Data Analysis
+# Biological Anthropology Master's Thesis - Data Analysis
+
+THE ROLE OF NRN1 GENE IN SCHIZOPHRENIA: ANALYSIS OF ITS GENETIC VARIABILITY IN CORTICAL THICKNESS
+
