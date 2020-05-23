@@ -1,0 +1,786 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Skipping web check... [ --noweb ] 
+Writing this text to log file [ linear_affected_recessive.log ]
+Analysis started: Sun May 17 17:37:01 2020
+
+Options in effect:
+	--noweb
+	--map mapa.map
+	--ped affected.ped
+	--pheno fenotip.pheno
+	--all-pheno
+	--linear
+	--recessive
+	--covar covariables.co
+	--covar-number 1,2,4,5,6
+	--mperm 10000
+	--out linear_affected_recessive
+
+11 (of 11) markers to be included from [ mapa.map ]
+47 individuals read from [ affected.ped ] 
+47 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+47 cases, 0 controls and 0 missing
+28 males, 19 females, and 0 of unspecified sex
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Reading 7 covariates from [ covariables.co ] with nonmissing values for 47 individuals
+Selected subset of 5 from 7 covariates
+For these, nonmissing covariate values for 47 individuals
+Before frequency and genotyping pruning, there are 11 SNPs
+47 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 0.992263
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 11 SNPs
+After filtering, 47 individuals with non-missing status
+After filtering, 28 males, 19 females, and 0 of unspecified sex
+Converting data to Individual-major format
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P1.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P1.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P2.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P2.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P3.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P3.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P4.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P4.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P5.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P5.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P6.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P6.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P7.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P7.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P8.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P8.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P9.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P9.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P10.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P10.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P11.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P11.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P12.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P12.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P13.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P13.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P14.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P14.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P15.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P15.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P16.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P16.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P17.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P17.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P18.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P18.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P19.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P19.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P20.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P20.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P21.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P21.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P22.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P22.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P23.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P23.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P24.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P24.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P25.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P25.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P26.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P26.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P27.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P27.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P28.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P28.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P29.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P29.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P30.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P30.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P31.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P31.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P32.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P32.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P33.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P33.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P34.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P34.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P35.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P35.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P36.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P36.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P37.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P37.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P38.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P38.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P39.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P39.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P40.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P40.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P41.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P41.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P42.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P42.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P43.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P43.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P44.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P44.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P45.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P45.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P46.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P46.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P47.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P47.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P48.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P48.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P49.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P49.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P50.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P50.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P51.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P51.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P52.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P52.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P53.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P53.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P54.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P54.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P55.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P55.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P56.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P56.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P57.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P57.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P58.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P58.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P59.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P59.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P60.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P60.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P61.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P61.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P62.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P62.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P63.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P63.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P64.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P64.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P65.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P65.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P66.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P66.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P67.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P67.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P68.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P68.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P69.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P69.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P70.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P70.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P71.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P71.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P72.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P72.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P73.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P73.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P74.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P74.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P75.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P75.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P76.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P76.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P77.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P77.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P78.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P78.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P79.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P79.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P80.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P80.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P81.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P81.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P82.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P82.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P83.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P83.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P84.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P84.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P85.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P85.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P86.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P86.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P87.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P87.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P88.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P88.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P89.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P89.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P90.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P90.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P91.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P91.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P92.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P92.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P93.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P93.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P94.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P94.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P95.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P95.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P96.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P96.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P97.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P97.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P98.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P98.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P99.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P99.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P100.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P100.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P101.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P101.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P102.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P102.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P103.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P103.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P104.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P104.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_recessive.P105.assoc.linear ] 
+Writing permutation association results to [ linear_affected_recessive.P105.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+Processed all phenotypes
+
+Analysis finished: Sun May 17 17:45:00 2020
+

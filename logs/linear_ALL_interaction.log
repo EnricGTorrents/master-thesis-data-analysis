@@ -1,0 +1,576 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Skipping web check... [ --noweb ] 
+Writing this text to log file [ linear_ALL_interaction.log ]
+Analysis started: Sun May 17 18:04:23 2020
+
+Options in effect:
+	--noweb
+	--map mapa.map
+	--ped pedigree.ped
+	--pheno fenotip.pheno
+	--all-pheno
+	--linear
+	--covar covariables2.co
+	--covar-number 1,2,4,5,8
+	--interaction
+	--parameters 1,2,3,4,5,6,11
+	--out linear_ALL_interaction
+
+11 (of 11) markers to be included from [ mapa.map ]
+94 individuals read from [ pedigree.ped ] 
+94 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+47 cases, 47 controls and 0 missing
+56 males, 38 females, and 0 of unspecified sex
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Reading 8 covariates from [ covariables2.co ] with nonmissing values for 47 individuals
+Selected subset of 5 from 8 covariates
+For these, nonmissing covariate values for 94 individuals
+Before frequency and genotyping pruning, there are 11 SNPs
+94 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 0.991296
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 11 SNPs
+After filtering, 94 individuals with non-missing status
+After filtering, 56 males, 38 females, and 0 of unspecified sex
+Converting data to Individual-major format
+Writing linear model association results to [ linear_ALL_interaction.P1.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P2.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P3.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P4.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P5.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P6.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P7.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P8.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P9.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P10.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P11.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P12.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P13.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P14.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P15.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P16.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P17.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P18.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P19.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P20.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P21.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P22.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P23.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P24.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P25.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P26.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P27.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P28.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P29.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P30.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P31.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P32.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P33.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P34.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P35.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P36.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P37.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P38.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P39.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P40.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P41.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P42.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P43.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P44.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P45.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P46.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P47.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P48.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P49.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P50.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P51.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P52.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P53.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P54.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P55.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P56.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P57.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P58.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P59.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P60.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P61.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P62.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P63.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P64.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P65.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P66.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P67.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P68.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P69.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P70.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P71.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P72.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P73.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P74.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P75.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P76.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P77.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P78.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P79.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P80.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P81.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P82.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P83.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P84.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P85.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P86.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P87.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P88.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P89.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P90.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P91.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P92.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P93.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P94.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P95.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P96.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P97.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P98.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P99.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P100.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P101.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P102.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P103.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P104.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+94 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Writing linear model association results to [ linear_ALL_interaction.P105.assoc.linear ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+Processed all phenotypes
+
+Analysis finished: Sun May 17 18:04:24 2020
+

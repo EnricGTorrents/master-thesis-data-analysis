@@ -1,0 +1,786 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Skipping web check... [ --noweb ] 
+Writing this text to log file [ linear_affected_dominant.log ]
+Analysis started: Sun May 17 17:29:16 2020
+
+Options in effect:
+	--noweb
+	--map mapa.map
+	--ped affected.ped
+	--pheno fenotip.pheno
+	--all-pheno
+	--linear
+	--dominant
+	--covar covariables.co
+	--covar-number 1,2,4,5,6
+	--mperm 10000
+	--out linear_affected_dominant
+
+11 (of 11) markers to be included from [ mapa.map ]
+47 individuals read from [ affected.ped ] 
+47 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+47 cases, 0 controls and 0 missing
+28 males, 19 females, and 0 of unspecified sex
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Reading 7 covariates from [ covariables.co ] with nonmissing values for 47 individuals
+Selected subset of 5 from 7 covariates
+For these, nonmissing covariate values for 47 individuals
+Before frequency and genotyping pruning, there are 11 SNPs
+47 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 0.992263
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 11 SNPs
+After filtering, 47 individuals with non-missing status
+After filtering, 28 males, 19 females, and 0 of unspecified sex
+Converting data to Individual-major format
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P1.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P1.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P2.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P2.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P3.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P3.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P4.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P4.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P5.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P5.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P6.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P6.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P7.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P7.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P8.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P8.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P9.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P9.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P10.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P10.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P11.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P11.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P12.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P12.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P13.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P13.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P14.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P14.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P15.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P15.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P16.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P16.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P17.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P17.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P18.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P18.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P19.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P19.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P20.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P20.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P21.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P21.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P22.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P22.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P23.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P23.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P24.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P24.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P25.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P25.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P26.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P26.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P27.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P27.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P28.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P28.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P29.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P29.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P30.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P30.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P31.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P31.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P32.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P32.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P33.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P33.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P34.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P34.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P35.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P35.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P36.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P36.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P37.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P37.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P38.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P38.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P39.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P39.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P40.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P40.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P41.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P41.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P42.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P42.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P43.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P43.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P44.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P44.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P45.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P45.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P46.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P46.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P47.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P47.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P48.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P48.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P49.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P49.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P50.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P50.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P51.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P51.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P52.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P52.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P53.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P53.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P54.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P54.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P55.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P55.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P56.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P56.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P57.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P57.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P58.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P58.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P59.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P59.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P60.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P60.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P61.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P61.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P62.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P62.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P63.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P63.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P64.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P64.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P65.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P65.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P66.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P66.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P67.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P67.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P68.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P68.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P69.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P69.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P70.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P70.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P71.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P71.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P72.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P72.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P73.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P73.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P74.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P74.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P75.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P75.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P76.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P76.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P77.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P77.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P78.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P78.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P79.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P79.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P80.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P80.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P81.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P81.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P82.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P82.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P83.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P83.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P84.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P84.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P85.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P85.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P86.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P86.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P87.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P87.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P88.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P88.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P89.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P89.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P90.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P90.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P91.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P91.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P92.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P92.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P93.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P93.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P94.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P94.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P95.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P95.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P96.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P96.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P97.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P97.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P98.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P98.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P99.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P99.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P100.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P100.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P101.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P101.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P102.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P102.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P103.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P103.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P104.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P104.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+47 individuals with non-missing alternate phenotype
+Assuming a quantitative trait
+Missing phenotype value is -9
+Set to permute within 1 cluster(s)
+Writing linear model association results to [ linear_affected_dominant.P105.assoc.linear ] 
+Writing permutation association results to [ linear_affected_dominant.P105.assoc.linear.mperm ] 
+Reading alternate phenotype from [ fenotip.pheno ] 
+Processed all phenotypes
+
+Analysis finished: Sun May 17 17:37:01 2020
+
