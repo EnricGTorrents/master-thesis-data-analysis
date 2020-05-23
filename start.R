@@ -10,7 +10,7 @@
 # 6 significance.R (sumaris i gràfics dels p-valors significatius)
 # 7 ANOVAs.R (analisis de variancia dels casos significatius ¿? )
 
-setwd("~/Insync/enricgarcia80@gmail.com/Google Drive/Dropbox/TFM/Dades Analisis/Analisis")
+# setwd("~/Insync/enricgarcia80@gmail.com/Google Drive/Dropbox/TFM/Dades Analisis/Analisis")
 
 library(tidyverse)
 library(openxlsx)
