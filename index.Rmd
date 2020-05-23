@@ -1,0 +1,237 @@
+---
+title: "The Role Of *NRN1* Gene In Schizophrenia: Analysis Of Its Genetic Variability In Cortical Thickness"
+author: "Enric Garcia Torrents"
+date: "5/20/2020"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(shiny)
+library(ggplot2)
+library(lemon)
+library(tidyverse)
+
+### Load workspace
+
+load("workspace.RData")
+
+### Soluciona el problema de la consistència dels colors
+### Create a custom color scale
+
+myColors <- c("red", "magenta", "blue", "grey")
+names(myColors) <- levels(affected_DF$Sig)
+# colScale <- scale_colour_manual(name = "Sig", values = myColors)
+
+### Create new dataframe for interactive plots
+
+affected_DF['Category']='Affected'
+unaffected_DF['Category']='Unaffected'
+intragroup_DF <- rbind(affected_DF, unaffected_DF)
+
+```
+
+<br>
+
+## Intragroup significance levels:
+ 
+```{r heatmaps intragroup, echo=FALSE}
+
+inputPanel(
+
+selectInput("Category", label = "Group to visualize:", choices = c("Affected", "Unaffected"), selected = "Affected"),
+
+selectInput("Hemispheres", label = "Hemisphere to visualize:", choices = c("Right", "Left", "Total"), selected = "Total")
+
+)
+
+renderPlot({
+
+selection <- intragroup_DF %>% filter(Category == input$Category)
+
+selection %>% filter(Hemisphere == input$Hemispheres) %>% ggplot(selection, mapping = aes(x = factor(SNP, levels=c("rs2208870", "rs12333117", "rs582186", "rs645649", "rs582262", "rs3763180", "rs10484320", "rs4960155", "rs9379002", "rs9405890", "rs1475157")), y = reorder(factor(ID), desc(factor(ID))), fill = Sig)) +  geom_tile() + facet_rep_grid(factor(Hemisphere, levels=c("Right", "Left", "Total")) ~ TEST, scales = "free", repeat.tick.labels = "y") + theme(legend.key.size = unit(0.5,"line"), legend.title = element_text(color = "black", size = 8, face="bold"), legend.text = element_text(color = "black", size = 8), legend.position="bottom", axis.text.x = element_text(size = 7, angle = 90), axis.text.y = element_text(size = 5)) + ylab("Phenotype") + xlab("SNP") + ggtitle('Heatmap of significant levels per test and SNP; intragroup') + theme(plot.title = element_text(size=11)) + scale_fill_manual(name = "Significance level: ", values = myColors)
+  
+  })
+```
+
+## All individuals significance levels:
+
+```{r heatmaps all, echo=FALSE}
+
+inputPanel(
+
+selectInput("Hemispheres_ALL", label = "Hemisphere to visualize:", choices = c("Right", "Left", "Total"), selected = "Total")
+
+)
+
+renderPlot({
+
+# linear_ALL_interaction_DF %>% filter(Hemisphere == input$Hemispheres) %>%
+    
+linear_ALL_interaction_DF %>% filter(Hemisphere == input$Hemispheres_ALL) %>% ggplot(linear_ALL_interaction_DF[linear_ALL_interaction_DF$TEST == "ADDxCOV8",], mapping = aes(x = factor(SNP, levels=c("rs2208870", "rs12333117", "rs582186", "rs645649", "rs582262", "rs3763180", "rs10484320", "rs4960155", "rs9379002", "rs9405890", "rs1475157")), y = reorder(factor(ID), desc(factor(ID))), fill = Sig)) +  geom_tile() + facet_rep_grid(factor(Hemisphere, levels=c("Right", "Left", "Total")) ~ TEST, scales = "free", repeat.tick.labels = "y") + theme(legend.key.size = unit(0.5,"line"), legend.title = element_text(color = "black", size = 8, face="bold"), legend.text = element_text(color = "black", size = 8), legend.position="bottom", axis.text.x = element_text(size = 7, angle = 90), axis.text.y = element_text(size = 5)) + ylab("Phenotype") + xlab("SNPs") + ggtitle('Heatmap of significant levels per test and SNP; all individuals') + theme(plot.title = element_text(size=11)) + scale_fill_manual(name = "Significance level: ", values = myColors)
+
+  })
+```
+
+
+## False Discovery Rates (FDR):
+
+```{r FDR, echo=FALSE}
+
+inputPanel(
+
+selectInput("FDR", label = "FDR to visualize:", choices = c("All individuals", "Affected individuals", "Affected, dominant","Affected, recessive", "Unaffected individuals", "Unaffected, dominant", "Unaffected, recessive"), selected = "All individuals")
+
+)
+
+renderPlot({
+
+first.plot <- switch(input$FDR, 
+                     "All individuals" = FDR_Plot_All_Individuals,
+                     "Affected individuals" = FDR_Plot_affected_Individuals,
+                     "Affected, dominant" = FDR_Plot_affected_Individuals_DOM,
+                     "Affected, recessive" = FDR_Plot_affected_Individuals_REC,
+                     "Unaffected individuals" = FDR_Plot_unaffected_Individuals,
+                     "Unaffected, dominant" = FDR_Plot_unaffected_Individuals_DOM,
+                     "Unaffected, recessive" = FDR_Plot_unaffected_Individuals_REC
+                     )
+
+first.plot
+
+  })
+```
+BH = Benjamini–Hochberg method
+
+
+## Covariates:
+ 
+**1**	Estimated total intracranial volume  
+**2**	Age at the time of the MRI  
+**3**	Age at debut of disease  
+**4**	Sex  
+**5**	TAP-E    
+**6**	AP EQP total  
+**7**	AP EQP total Andreasen  
+**8**	Diagnostic (patient or control)
+
+## Brain regions IDs:
+
+<table align=center style="width: 100%"><tr><td>
+#### Right Hemisphere
+</td><td>
+#### Left Hemisphere
+</td><td>
+#### Total
+</td></tr><tr><td>
+**1** Bankssts  
+**2** Caudalanteriorcingulate  
+**3** Caudalmiddlefrontal  
+**4** Cuneus  
+**5** Entorhinal  
+**6** Fusiform  
+**7** Inferiorparietal  
+**8** Inferiortemporal  
+**9** Isthmuscingulate  
+**10** Lateraloccipital  
+**11** Lateralorbitofrontal  
+**12** Lingual  
+**13** Medialorbitofrontal  
+**14** Middletemporal  
+**15** Parahippocampal  
+**16** Paracentral  
+**17** Parsopercularis  
+**18** Parsorbitalis  
+**19** Parstriangularis  
+**20** Pericalcarine  
+**21** Postcentral  
+**22** Posteriorcingulate  
+**23** Precentral  
+**24** Precuneus  
+**25** Rostralanteriorcingulate  
+**26** Rostralmiddlefrontal  
+**27** Superiorfrontal  
+**28** Superiorparietal  
+**29** Superiortemporal  
+**30** Supramarginal  
+**31** Frontalpole  
+**32** Temporalpole  
+**33** Transversetemporal  
+**34** Insula  
+**35** Meanthickness
+</td><td>
+**36** Bankssts  
+**37** Caudalanteriorcingulate  
+**38** Caudalmiddlefrontal  
+**39** Cuneus  
+**40** Entorhinal  
+**41** Fusiform  
+**42** Inferiorparietal  
+**43** Inferiortemporal  
+**44** Isthmuscingulate  
+**45** Lateraloccipital  
+**46** Lateralorbitofrontal  
+**47** Lingual  
+**48** Medialorbitofrontal  
+**49** Middletemporal  
+**50** Parahippocampal  
+**51** Paracentral  
+**52** Parsopercularis  
+**53** Parsorbitalis  
+**54** Parstriangularis  
+**55** Pericalcarine  
+**56** Postcentral  
+**57** Posteriorcingulate  
+**58** Precentral  
+**59** Precuneus  
+**60** Rostralanteriorcingulate  
+**61** Rostralmiddlefrontal  
+**62** Superiorfrontal  
+**63** Superiorparietal  
+**64** Superiortemporal  
+**65** Supramarginal  
+**66** Frontalpole  
+**67** Temporalpole  
+**68** Transversetemporal  
+**69** Insula  
+**70** Meanthickness
+</td><td>
+**71** Bankssts  
+**72** Caudalanteriorcingulate  
+**73** Caudalmiddlefrontal  
+**74** Cuneus  
+**75** Entorhinal  
+**76** Fusiform  
+**77** Inferiorparietal  
+**78** Inferiortemporal  
+**79** Isthmuscingulate  
+**80** Lateraloccipital  
+**81** Lateralorbitofrontal  
+**82** Lingual  
+**83** Medialorbitofrontal  
+**84** Middletemporal  
+**85** Parahippocampal  
+**86** Paracentral  
+**87** Parsopercularis  
+**88** Parsorbitalis  
+**89** Parstriangularis  
+**90** Pericalcarine  
+**91** Postcentral  
+**92** Posteriorcingulate  
+**93** Precentral  
+**94** Precuneus  
+**95** Rostralanteriorcingulate  
+**96** Rostralmiddlefrontal  
+**97** Superiorfrontal  
+**98** Superiorparietal  
+**99** Superiortemporal  
+**100** Supramarginal  
+**101** Frontalpole  
+**102** Temporalpole  
+**103** Transversetemporal  
+**104** Insula  
+**105** Meanthickness
+</td></tr></table>
+
+<br><br>

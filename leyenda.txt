@@ -1,0 +1,46 @@
+PED
+
+MAP
+------------------------
+rs2208870
+rs12333117
+rs58218
+rs645649
+rs582262
+rs3763180
+rs10484320
+rs4960155
+rs9379002
+rs9405890
+rs1475157
+
+PHENO
+-------------------------
+NA	Family ID
+NA	Individual ID
+105 Phenotypes
+
+COV
+-------------------------
+NA	Family ID
+NA	Individual ID
+#1	EstimatedTotalIntraCranialVol
+#2	EDAT_RESSO
+#3	EDAT_DEBUT
+#4	SEX
+#5	TAP-E
+#6	AP EQP total
+#7	AP EQP total_Andreasen
+
+COV2
+-------------------------
+NA	Family ID
+NA	Individual ID
+#1	EstimatedTotalIntraCranialVol
+#2	EDAT_RESSO
+#3	EDAT_DEBUT
+#4	SEX
+#5	TAP-E
+#6	AP EQP total
+#7	AP EQP total_Andreasen
+#8	Diagnostic
