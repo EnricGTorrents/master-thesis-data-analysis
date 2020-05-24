@@ -24,3 +24,6 @@ require(gridExtra)
 library(ggpubr)
 library(rstatix)
 library(broom)
+
+library(emmeans)
+library(Rmisc)
